@@ -1,0 +1,20 @@
+.card_wrapper1 {
+  min-width: 275px;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+  padding: 30px;
+  background-color: #cdcdcf;
+  border-radius: 16px;
+  border: 4px solid #cdcdcf;
+  margin: 20px;
+
+  .card_title {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 600;
+  }
+
+  .card_images_wrapper {
+    display: flex;
+    justify-content: space-around;
+  }
+}

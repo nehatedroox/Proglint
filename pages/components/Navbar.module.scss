@@ -1,0 +1,21 @@
+.navbar_wrapper {
+  color: #0b0b0b;
+  //background-color: #8080801a;
+  background-color: #cdcdcf;
+  height: 100px;
+  font-weight: 700;
+
+  .lock_button {
+    font-size: 50px;
+    margin-right: 100px;
+  }
+}
+
+.title {
+  flex-grow: 2;
+}
+
+.menuButton {
+  // margin-right: theme.spacing(2);
+  font-size: 16px;
+}

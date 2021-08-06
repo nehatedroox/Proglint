@@ -1,0 +1,93 @@
+.home_container {
+  padding: 0px;
+  background-color: #cdcdcf;
+
+  .card_component_wrapper {
+    border-radius: 10px;
+    margin-top: 50px;
+  }
+
+  .first_image_section {
+    margin-top: -115px;
+    position: relative;
+    // top: 50px;
+
+    .image_section1 {
+      margin-top: 10px;
+    }
+    .home_subtitle1 {
+      position: absolute;
+      top: 60px;
+      width: 100%;
+      font-size: 60px;
+      color: red;
+
+      .home_about_and_signup_section {
+        border: black;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+        .home_about_us_text {
+          display: flex;
+          flex-direction: column;
+          color: #fcfffc;
+          width: 700px;
+          font-size: 35px;
+
+          .home_about_us_header {
+            font-size: 85px;
+          }
+        }
+
+        .home_signup_text {
+          color: yellow;
+        }
+      }
+    }
+  }
+}
+
+// .first_image_section {
+//   margin-top: -115px;
+//   position: relative;
+//   top: 50px;
+//   .home_subtitle1 {
+//     position: absolute;
+//     top: 60px;
+//     width: 100%;
+//     font-size: 60px;
+//     color: red;
+
+//     .home_about_and_signup_section {
+//       border: black;
+//       display: flex;
+//       flex-direction: row;
+//       justify-content: space-around;
+
+//       .home_about_us_text {
+//         display: flex;
+//         flex-direction: column;
+//         color: #fcfffc;
+//         width: 700px;
+//         font-size: 35px;
+
+//         .home_about_us_header {
+//           font-size: 85px;
+//         }
+//       }
+
+//       .home_signup_text {
+//         color: yellow;
+//       }
+//     }
+//   }
+// }
+
+// .root {
+//   min-width: 275px;
+//   .card_title {
+//     font-size: 20px;
+//     text-align: center;
+//   }
+// }
