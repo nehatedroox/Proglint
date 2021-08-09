@@ -22,7 +22,10 @@ const Contact = () => {
       <div className={styles.footer_container_first_row}>
         <div>
           {" "}
-          <Typography variant="h1" className={styles.title}>
+          <Typography
+            variant="h1"
+            className={(styles.title, styles.mobile_title)}
+          >
             Tedroox-Max-Pro
           </Typography>
         </div>
@@ -76,7 +79,6 @@ const Contact = () => {
 
         <div className={styles.footer_buttons}>
           <Button
-           // className={styles.footer_register_button}
             className={
               activeButton
                 ? styles.active_background
@@ -87,7 +89,6 @@ const Contact = () => {
             Register
           </Button>
           <Button
-           // className={styles.footer_login_button}
             className={
               activeButton
                 ? styles.Inactive_background
@@ -105,22 +106,13 @@ const Contact = () => {
           © 2013 Tedroox Technologies and Data Services Private Limited. All
           rights reserved.
         </Typography>
-        <Typography variant="h5" className={styles.title1}>
-          Follow Us:
-        </Typography>
+
         <div>
-          <FacebookIcon
-            style={{ fontSize: 50, marginRight: "30px", color: "e44017" }}
-          />
-          <InstagramIcon
-            style={{ fontSize: 50, marginRight: "30px", color: "e44017" }}
-          />
-          <TwitterIcon
-            style={{ fontSize: 50, marginRight: "30px", color: "e44017" }}
-          />
-          <YouTubeIcon
-            style={{ fontSize: 50, marginRight: "30px", color: "e44017" }}
-          />
+          <div className={styles.title1}>Follow Us:</div>
+          <FacebookIcon className={styles.icons_footer_styles} />
+          <InstagramIcon className={styles.icons_footer_styles} />
+          <TwitterIcon className={styles.icons_footer_styles} />
+          <YouTubeIcon className={styles.icons_footer_styles} />
         </div>
       </div>
     </div>

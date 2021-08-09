@@ -1,6 +1,5 @@
 .navbar_wrapper {
   color: #0b0b0b;
-  //background-color: #8080801a;
   background-color: #cdcdcf;
   height: 100px;
   font-weight: 700;
@@ -9,13 +8,59 @@
     font-size: 50px;
     margin-right: 100px;
   }
+
+  .menu_bar {
+    visibility: hidden;
+  }
 }
 
-.title {
+.title2 {
   flex-grow: 2;
 }
+.title {
+  flex-grow: 2;
+  a {
+    text-decoration: none;
+    color: black;
+  }
+}
 
-.menuButton {
-  // margin-right: theme.spacing(2);
-  font-size: 16px;
+.MuiButton-text {
+  padding: 6px 58px;
+  color: black;
+}
+
+@media only screen and (max-width: 800px) {
+  .navbar_wrapper {
+    color: #0b0b0b;
+    background-color: #cdcdcf;
+    height: 100px;
+    font-weight: 700;
+
+    .lock_button {
+      font-size: 50px;
+      margin-right: 100px;
+    }
+
+    .menu_bar {
+      font-size: 45px;
+      margin-right: 10px;
+      margin-top: -38px;
+      visibility: visible;
+    }
+  }
+  .title {
+    display: none !important;
+  }
+  .lock_button {
+    display: none !important;
+  }
+
+  .wrappes_all_tabs {
+    display: none;
+  }
+
+  .MuiButton-text {
+    padding: 8px 60px;
+  }
 }

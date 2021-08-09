@@ -1,11 +1,6 @@
 import React, { useState } from "react";
-import Image from "next/image";
-import jeans2 from "../../../public/jeans2.jpeg";
-import shirts1 from "../../../public/shirts1.jpg";
-import suits3 from "../../../public/suits3.jpeg";
-import { Button, CardContent, Typography, Card } from "@material-ui/core";
+import { Button, CardContent, Card } from "@material-ui/core";
 import styles from "./Form.module.scss";
-import ImageCard from "../../components/card/ImageCard";
 import TextField from "@material-ui/core/TextField";
 
 interface imageProps {
@@ -31,7 +26,7 @@ const FormComponent: React.FC<imageProps> = ({ title }) => {
     >
       <CardContent>
         <form className={styles.form_wrapper} noValidate autoComplete="off">
-          <span>Sign Up for a free account</span>
+          <span className={styles.form_title}>Sign Up for a free account</span>
           <div className={styles.first_line}>
             <TextField
               className={styles.filled_basic}

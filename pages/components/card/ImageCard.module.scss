@@ -16,7 +16,13 @@
     position: absolute;
     top: 0px;
     width: 100%;
-    //margin-left: 50px;
     font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .image_section_block {
+    font-size: 10px;
+    margin-top: 10px;
   }
 }
